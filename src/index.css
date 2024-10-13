@@ -23,12 +23,13 @@ body{
   background: url(./assets/gradient.png);
   background-repeat: no-repeat;
   background-size: cover;
-  padding-bottom: 100px;
+  padding-bottom: 30px;
   padding-top: 80px;
 }
 .animation {
   position: relative;
   right: 115px;
+  top: -45px;
 }
 
 .hero-content {
@@ -138,7 +139,7 @@ span.lottie {
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 .about-content{
   margin-top: 50px;
