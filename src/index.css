@@ -51,6 +51,12 @@ h1{
   line-height: 26px;
   color: #534f4f;
 }
+._space{
+padding:110px 0
+}
+.lite-space{
+  padding-top: 70px;
+}
 .container{
   max-width: 1280px;
   margin:0 auto;
@@ -323,4 +329,127 @@ align-items: center;
 .service-content {
   border-top: 1px solid #716e6e54;
   padding: 30px 0;
+}
+
+/* how it work
+ */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 20px;
+  grid-row-gap: 0px;
+  }
+
+  .card-logo span {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 2px solid var(--primary-color);
+}
+
+.child-arrow img {
+  height: 130px;
+}
+
+.single-card {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.child-arrow {
+  position: relative;
+}
+
+.child-arrow img {
+  position: absolute;
+  top: -40px;
+}
+
+.child-arrow span {
+  top: -6px;
+  position: absolute;
+  left: -38px;
+}
+.card-flex-content {
+  position: relative;
+  width: 350px;
+}
+.card-position-change {
+  position: absolute;
+  width: 100%;
+}
+
+
+.howItwork{
+  height: 1000px;
+}
+
+.card-position-change {
+  position: absolute;
+  width: 100%;
+  top: -15px;
+  left: 15px;
+  border: 2px dotted #d1d1d1;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+.arrow-position-change__ {
+  position: absolute;
+  right: -265px;
+  top: 185px;
+}
+
+
+.arrow-position-change__ {
+  position: absolute;
+  right: -192px;
+  top: 15px;
+}
+
+.card-position-change.new-position {
+  top: 62px;
+  left: 20px;
+}
+
+.card-logo.new-logo span {
+  position: absolute;
+  right: -290px;
+  bottom: -146px;
+}
+
+.down-arrow {
+  position: relative;
+}
+
+.card-logo-img{
+  position: relative;
+}
+
+.card-logo-img {
+  position: absolute;
+}
+
+.card-logo-img img {
+  height: 30px;
+  position: absolute;
+  left: 157px;
+  transform: rotate(23deg);
+  top: 24px;
+}
+
+.new-card-image img {
+  height: 29px;
+  position: absolute;
+  left: 332px;
+  transform: rotate(-6deg);
+  top: -50px;
+}
+
+.card-container h4 {
+  padding-top: 0;
+  margin: 12px 0;
 }

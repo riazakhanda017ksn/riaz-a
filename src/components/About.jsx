@@ -1,4 +1,3 @@
-import React from 'react';
 import animation from '../assets/about-2.json'
 import arrow from '../assets/arroww.json'
 import Lottie from 'lottie-react';
