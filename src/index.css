@@ -10,7 +10,23 @@ body{
   --secondary-color: #FFFF; 
   --text-color:#716e6e;
 }
-
+h1{
+  font-size: 55px;
+    margin: 0;
+    padding: 0;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+.text-center{
+  text-align: center;
+}
+ h4 {
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-weight: 800;
+  color: var(--primary-color);
+  margin-bottom: 10px;
+}
 .container{
   max-width: 1280px;
   margin:0 auto;
@@ -139,7 +155,7 @@ span.lottie {
     top: 0;
     left: 0;
     width: 100%;
-    padding-top: 80px;
+    padding-top: 150px;
 }
 .about-content{
   margin-top: 50px;
@@ -194,4 +210,32 @@ span.arrow-position-change {
   position: absolute;
   top: -56px;
   right: -88px;
+}
+
+
+/* services */
+
+.service{
+  position: relative;
+  height: 350px;
+}
+
+.services-animation {
+  position: absolute;
+  bottom: 0;
+
+}
+
+.services {
+  position: relative;
+}
+
+.service-container {
+  margin-top: 630px;
+}
+
+.service-text{
+text-align: center;
+margin-left: 100px;
+padding-top: 10px;
 }
