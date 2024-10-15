@@ -27,6 +27,7 @@ body{
   --secondary-color: #FFFF; 
   --text-color:#716e6e;
   --transparent-color:#e6e6e63b;
+  ---black:#000000;
 }
 h1{
   font-size: 55px;
@@ -385,7 +386,7 @@ align-items: center;
 
 
 .howItwork{
-  height: 1000px;
+  height: 930px;
 }
 
 .card-position-change {
@@ -395,7 +396,7 @@ align-items: center;
   left: 15px;
   border: 2px dotted #d1d1d1;
   padding: 10px 20px;
-  border-radius: 50px;
+  border-radius: 20px;
 }
 .arrow-position-change__ {
   position: absolute;
@@ -450,6 +451,76 @@ align-items: center;
 }
 
 .card-container h4 {
-  padding-top: 0;
-  margin: 12px 0;
+  padding-top: 5px;
+  color: var(---black);
+  margin: 0;
+}
+
+.custom-logo {
+  text-align: center;
+}
+
+.card-position-change p {
+  margin: 10px 0;
+}
+.card-position-change span {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  font-weight: 800;
+  background: var(--primary-color);
+  border-radius: 50%;
+  margin: 10px 0;
+  color:var(--secondary-color);
+}
+
+.custom-logo img {
+  height: 30px;
+  position: relative;
+  bottom: -20px;
+  left: 0px;
+}
+
+
+.card-logo-position-change {
+  position: relative;
+  left: 90px;
+  bottom: -5px;
+}
+
+.change__position img {
+  left: -99px;
+  transform: rotate(-4deg);
+}
+
+.new__position__ {
+  top: 62px;
+  left: 235px;
+}
+.new__logo {
+  position: relative;
+  left: 15px;
+  top: 6px;
+}
+.card-logo span {
+
+  z-index: 999;
+  position: relative;
+}
+
+.new-card-image__ img {
+  height: 30px;
+  position: absolute;
+  left: -98px;
+  transform: rotate(4deg);
+  top: -50px;
+}
+
+.custom-logo.__logo {
+  position: absolute;
+  top: 90px;
+  left: -45px;
 }
