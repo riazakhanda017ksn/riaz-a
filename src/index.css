@@ -26,8 +26,9 @@ body{
   --primary-color: #39b7fa; 
   --secondary-color: #FFFF; 
   --text-color:#716e6e;
-  --transparent-color:#e6e6e63b;
+  --transparent-color:#e6e6e653;
   ---black:#000000;
+  --colors:#a3a1a158;
 }
 h1{
   font-size: 55px;
@@ -523,4 +524,124 @@ align-items: center;
   position: absolute;
   top: 90px;
   left: -45px;
+}
+
+/* tabs */
+
+
+.tabs button {
+  padding: 10px 20px;
+  background-color: var(--colors);
+  border: none;
+  cursor: pointer;
+  margin-right: 25px;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: 'Nunito';
+}
+.tabs button.active {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+.tabs {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.parent {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 20px;
+grid-row-gap: 20px;
+}
+
+.projects-container{
+  background: var(--transparent-color);
+  padding: 120px 0;
+}
+
+.single-project h5{
+  width: 100%;
+}
+
+.single-project p{
+  width: 100%;
+}
+
+.single-project {
+  border-radius: 8px;
+  transition: 0.4s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid var(--colors);
+  
+}
+
+.single-project:hover{
+  background-position: bottom center !important;
+  border:none !important;
+
+}
+
+.content-item{
+  width: 92%;
+  margin: 0 auto;
+  opacity: 1;
+  transition: .2s ease-in-out;
+  transform-origin: top center;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.041);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 20px;
+  visibility: hidden;
+
+}
+
+.single-project:hover .content-item{
+  opacity: 1;
+  z-index: 999;
+  visibility: visible;
+  transform-origin: top center;
+  background: #ffffffec;
+  width: 90.6%;
+  height: 100%;
+  border-radius: 8px;
+  border: 2px solid var(--colors);
+}
+
+.single-project h5 {
+  margin: 0;
+  font-size: 22px;
+  letter-spacing: 1px;
+}
+.content-item p {
+  font-size: 14px;
+}
+
+.content-item a {
+  width: 100%;
+  position: relative;
+
+}
+
+
+.content-item a span {
+  transform: rotate(23deg);
+  display: inline-block !important;
+  margin-top: -10px;
+  margin-bottom: -30px;
+}
+
+.project-card a{
+  text-decoration: none;
+  color: black;
 }
